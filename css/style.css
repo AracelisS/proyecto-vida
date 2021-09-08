@@ -2,7 +2,9 @@ body {background-color : #ededed; font-family : "Open Sans", sans-serif;}
 
 h1 {padding: 60px; text-align: center; font-size: 2.5em ; margin-right: 500px;}
 
-li a {text-decoration : none; color : #000000;}
+li a {text-decoration : none; color : #000000;
+list-style: none;
+}
 li a{
     margin-left:auto;
 }
