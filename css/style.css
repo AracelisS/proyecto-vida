@@ -3,18 +3,25 @@ body {background-color : #ededed; font-family : "Open Sans", sans-serif;}
 h1 {padding: 60px; text-align: center; font-size: 2.5em ; margin-right: 500px;}
 
 li a {text-decoration : none; color : #000000;
-list-style: none;
+
 }
 li a{
     margin-left:auto;
 }
+li{
+  list-style: none;
+  margin-right:100px;
+
+   
+
+}
 
 nav {
-  width : 500px; 
+  width : 400px; 
   background: #ffffff;
   margin : 40px auto;
   margin-right: 36px;
-  background-repeat:fixed;
+  
 }
 
 span {
@@ -38,12 +45,12 @@ span::after {
   width:100%;
   height:0px;
   overflow: hidden;
-  text-align: center;
+  text-align: left;
   transition: height .4s ease;
 }
 
-.slide li {padding : 30px;}
+.slide li {padding : 15px;}
 
 #touch {position: absolute; opacity: 0; height: 0px;}    
 
-#touch:checked + .slide {height: 800px;} 
+#touch:checked + .slide {height: 500px;} 
