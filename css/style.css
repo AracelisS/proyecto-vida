@@ -74,7 +74,10 @@ main p {
   margin: 20px 0;
 }
 
-
+main small {
+  font-weight: 300;
+  color: #888;
+}
 
 #nav-container {
   position: fixed;
